@@ -37,7 +37,7 @@ def test_agregation_par_ville():
 def test_agregation_par_categorie():
     df_cat = pd.DataFrame(
         {
-            "quantite": [2, 3, 1],
+            "quantite": [2, 1, 1],
             "prix_unitaire": [50.0, 100.0, 200.0],
             "ville": ["Paris", "Lyon", "Lille"],
             "categorie": ["Informatique", "Mobilier", "Informatique"],
